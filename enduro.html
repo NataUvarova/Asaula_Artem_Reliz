@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ендуро мотоцикли — AsaMoto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-motorcycle"></i> AsaMoto
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-btn">Головна</a>
+            <a href="accessories.html" class="nav-btn">Аксесуари</a>
+            <a href="parts.html" class="nav-btn">Деталі</a>
+        </nav>
+        <div class="user-actions">
+            <button class="icon-btn"><i class="fa-solid fa-gear"></i></button>
+            <button class="icon-btn"><i class="fa-solid fa-user"></i></button>
+        </div>
+    </header>
+
+    <div class="page-title-container">
+        <div class="breadcrumbs">Головна / Каталог / Ендуро</div>
+        <h1 class="main-page-title">Мотоцикли класу Ендуро / Крос</h1>
+    </div>
+
+    <section class="categories-section">
+        <div class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="categories-grid">
+            <a href="enduro.html" class="cat-btn">Ендуро</a>
+            <a href="cruise.html" class="cat-btn">Круіз</a>
+            <a href="street.html" class="cat-btn">Стріт</a>
+            <a href="sport.html" class="cat-btn">Спорт</a>
+            <a href="touring.html" class="cat-btn">Туристичні</a>
+            <a href="hardtail.html" class="cat-btn">Хардтейл</a>
+        </div>
+    </section>
+
+    <div class="catalog-container">
+        
+        <aside class="sidebar-filter">
+            <div class="filter-group">
+                <h3>Тип двигуна</h3>
+                <label><input type="checkbox"> 2-тактний (2T)</label>
+                <label><input type="checkbox"> 4-тактний (4T)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Об'єм двигуна</h3>
+                <label><input type="checkbox"> 125 - 150 кубів</label>
+                <label><input type="checkbox" checked> 250 кубів</label>
+                <label><input type="checkbox"> 300 - 450 кубів</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Розмір коліс</h3>
+                <label><input type="radio" name="wheels"> 21" / 18" (Стандарт)</label>
+                <label><input type="radio" name="wheels"> 19" / 16" (Питбайк)</label>
+                <label><input type="radio" name="wheels"> 17" / 14" (Міні)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Охолодження</h3>
+                <label><input type="checkbox"> Повітряне</label>
+                <label><input type="checkbox"> Водяне</label>
+            </div>
+
+            <button class="apply-filter-btn">Показати результати</button>
+        </aside>
+
+        <main class="catalog-products">
+            <div class="products-grid max-width-override">
+                
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/rectangle23.png" alt="Kayo K1"></div>
+                    <div class="product-info">
+                        <h4>Kayo K1 250cc</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 21 к.с.</span>
+                            <span><i class="fa-solid fa-droplet"></i> Повітряне</span>
+                        </div>
+                        <p class="bike-price">112 000 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/rectangle20.png" alt="KTM"></div>
+                    <div class="product-info">
+                        <h4>KTM 250 EXC TPI</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 2T / Інжектор</span>
+                            <span><i class="fa-solid fa-droplet"></i> Водяне</span>
+                        </div>
+                        <p class="bike-price">385 000 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/rectangle16.png" alt="Yamaha"></div>
+                    <div class="product-info">
+                        <h4>Yamaha YZ250F</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 42 к.с. (Крос)</span>
+                            <span><i class="fa-solid fa-droplet"></i> Водяне</span>
+                        </div>
+                        <p class="bike-price">340 000 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/geonnnnnnnnnnn.jpg" alt="Geon"></div>
+                    <div class="product-info">
+                        <h4>Geon Terrax 250 Pro</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 18 к.с.</span>
+                            <span><i class="fa-solid fa-droplet"></i> Повітряне</span>
+                        </div>
+                        <p class="bike-price">89 500 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/bsej3d250.jpg" alt="BSE"></div>
+                    <div class="product-info">
+                        <h4>BSE J3D 250cc</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 24 к.с.</span>
+                            <span><i class="fa-solid fa-droplet"></i> Водяне</span>
+                        </div>
+                        <p class="bike-price">104 000 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card">
+                    <div class="img-placeholder"><img src="assets/husgvarnate250.jpg" alt="Husqvarna"></div>
+                    <div class="product-info">
+                        <h4>Husqvarna TE 250</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge"></i> 2T Premium</span>
+                            <span><i class="fa-solid fa-droplet"></i> Водяне</span>
+                        </div>
+                        <p class="bike-price">410 000 грн</p>
+                        <button class="buy-bike-btn">Детальніше</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="logo">
+            <i class="fa-solid fa-motorcycle"></i> AsaMoto
+        </div>
+        <div class="footer-contacts">
+            <span>+380990000000</span>
+            <span>м.Київ вул.Механіків 4</span>
+        </div>
+    </footer>
+
+</body>
+</html>

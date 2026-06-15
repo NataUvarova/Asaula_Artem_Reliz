@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристичні мотоцикли — AsaMoto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-motorcycle"></i> AsaMoto
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-btn">Головна</a>
+            <a href="accessories.html" class="nav-btn">Аксесуари</a>
+            <a href="parts.html" class="nav-btn">Деталі</a>
+        </nav>
+        <div class="user-actions">
+            <button class="icon-btn"><i class="fa-solid fa-gear"></i></button>
+            <button class="icon-btn"><i class="fa-solid fa-user"></i></button>
+        </div>
+    </header>
+
+    <div class="page-title-container">
+        <div class="breadcrumbs">Головна / Каталог / Туристичні</div>
+        <h1 class="main-page-title">Мотоцикли для подорожей та Гранд-Тур</h1>
+    </div>
+
+    <section class="categories-section">
+        <div class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="categories-grid">
+            <a href="enduro.html" class="cat-btn">Ендуро</a>
+            <a href="cruise.html" class="cat-btn">Круіз</a>
+            <a href="street.html" class="cat-btn">Стріт</a>
+            <a href="sport.html" class="cat-btn">Спорт</a>
+            <a href="touring.html" class="cat-btn">Туристичні</a>
+            <a href="hardtail.html" class="cat-btn">Хардтейл</a>
+        </div>
+    </section>
+
+    <div class="catalog-container">
+        
+        <aside class="sidebar-filter">
+            <div class="filter-group">
+                <h3>Тип приводу</h3>
+                <label><input type="checkbox"> Карданний вал (Без обслуговування)</label>
+                <label><input type="checkbox" checked> Ланцюг (Посилений)</label>
+                <label><input type="checkbox"> Ремінь</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Об'єм багажних кофрів</h3>
+                <label><input type="checkbox"> Без кофрів (База)</label>
+                <label><input type="checkbox" checked> Бокові кофри (від 60л)</label>
+                <label><input type="checkbox"> Повний комплект + Топкейс (100л+)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Комфорт у дорозі</h3>
+                <label><input type="checkbox" checked> Круїз-контроль</label>
+                <label><input type="checkbox"> Підігрів ручок та сидіння</label>
+                <label><input type="checkbox"> Високе вітрове скло</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Місткість бака</h3>
+                <label><input type="radio" name="tank"> Стандарт (15-19 л)</label>
+                <label><input type="radio" name="tank" checked> Long Range (20-30 л)</label>
+            </div>
+
+            <button class="apply-filter-btn">Знайти для подорожі</button>
+        </aside>
+
+        <main class="catalog-products">
+            <div class="products-grid max-width-override">
+                
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/BMW GS.jfif" alt="BMW GS"></div>
+                    <div class="product-info">
+                        <h4>BMW R 1250 GS Adventure</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 30 літрів</span>
+                            <span><i class="fa-solid fa-route"></i> 550+ км запас</span>
+                        </div>
+                        <p class="bike-price">980 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/africa twin.jfif" alt="Honda Africa Twin"></div>
+                    <div class="product-info">
+                        <h4>Honda CRF1100L Africa Twin</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 24.8 літра</span>
+                            <span><i class="fa-solid fa-route"></i> 450+ км запас</span>
+                        </div>
+                        <p class="bike-price">685 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/v-storm.jfif" alt="Suzuki V-Strom"></div>
+                    <div class="product-info">
+                        <h4>Suzuki V-Strom 650XT</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 20 літрів</span>
+                            <span><i class="fa-solid fa-route"></i> 400+ км запас</span>
+                        </div>
+                        <p class="bike-price">395 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/tracer 9.jfif" alt="Yamaha Tracer 9"></div>
+                    <div class="product-info">
+                        <h4>Yamaha Tracer 9 GT</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 19 літрів</span>
+                            <span><i class="fa-solid fa-route"></i> 380+ км запас</span>
+                        </div>
+                        <p class="bike-price">560 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/versys.jfif" alt="Kawasaki Versys"></div>
+                    <div class="product-info">
+                        <h4>Kawasaki Versys 1000</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 21 літр</span>
+                            <span><i class="fa-solid fa-route"></i> 410+ км запас</span>
+                        </div>
+                        <p class="bike-price">590 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card touring-theme">
+                    <div class="img-placeholder"><img src="assets/KTM super adventure.jfif" alt="KTM Super Adventure"></div>
+                    <div class="product-info">
+                        <h4>KTM 1290 Super Adv S</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gas-pump"></i> 23 літри</span>
+                            <span><i class="fa-solid fa-route"></i> 430+ км запас</span>
+                        </div>
+                        <p class="bike-price">820 000 грн</p>
+                        <button class="buy-bike-btn">У дорогу</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="logo">
+            <i class="fa-solid fa-motorcycle"></i> AsaMoto
+        </div>
+        <div class="footer-contacts">
+            <span>+380990000000</span>
+            <span>м.Київ вул.Механіків 4</span>
+        </div>
+    </footer>
+
+</body>
+</html>

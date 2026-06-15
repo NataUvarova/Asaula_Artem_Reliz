@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спортбайки та Суперспорт — AsaMoto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-motorcycle"></i> AsaMoto
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-btn">Головна</a>
+            <a href="accessories.html" class="nav-btn">Аксесуари</a>
+            <a href="parts.html" class="nav-btn">Деталі</a>
+        </nav>
+        <div class="user-actions">
+            <button class="icon-btn"><i class="fa-solid fa-gear"></i></button>
+            <button class="icon-btn"><i class="fa-solid fa-user"></i></button>
+        </div>
+    </header>
+
+    <div class="page-title-container">
+        <div class="breadcrumbs">Головна / Каталог / Спорт</div>
+        <h1 class="main-page-title">Спортбайки та Суперспорт</h1>
+    </div>
+
+    <section class="categories-section">
+        <div class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="categories-grid">
+            <a href="enduro.html" class="cat-btn" style="text-decoration: none;">Ендуро</a>
+            <a href="cruise.html" class="cat-btn" style="text-decoration: none;">Круіз</a>
+            <a href="street.html" class="cat-btn" style="text-decoration: none;">Стріт</a>
+            <a href="sport.html" class="cat-btn active-page">Спорт</a>
+            <a href="touring.html" class="cat-btn">Туристичні</a>
+            <a href="hardtail.html" class="cat-btn">Хардтейл</a>
+        </div>
+    </section>
+
+    <div class="catalog-container">
+        
+        <aside class="sidebar-filter">
+            <div class="filter-group">
+                <h3>Клас треку</h3>
+                <label><input type="checkbox"> Moto3 (до 300cc)</label>
+                <label><input type="checkbox" checked> Supersport (600cc)</label>
+                <label><input type="checkbox"> Superbike (1000cc+)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Конфігурація ДВЗ</h3>
+                <label><input type="checkbox"> Рядна четвірка (Inline-4)</label>
+                <label><input type="checkbox"> V-подібний (V2 / V4)</label>
+                <label><input type="checkbox"> Рядна двійка (Parallel-Twin)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Електронні асистенти</h3>
+                <label><input type="checkbox" checked> Квікшифтер Up/Down</label>
+                <label><input type="checkbox"> Лаунч-контроль</label>
+                <label><input type="checkbox"> Анти-вілі (Wheelie Control)</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Призначення</h3>
+                <label><input type="radio" name="purpose" checked> Тільки трек (Без дзеркал)</label>
+                <label><input type="radio" name="purpose"> Місто / Трек (Дорожній омолог)</label>
+            </div>
+
+            <button class="apply-filter-btn">Розрахувати конфігурацію</button>
+        </aside>
+
+        <main class="catalog-products">
+            <div class="products-grid max-width-override">
+                
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/r6.jfif" alt="Yamaha R6"></div>
+                    <div class="product-info">
+                        <h4>Yamaha YZF-R6 RACE</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 118 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 265 км/год</span>
+                        </div>
+                        <p class="bike-price">540 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/ZX-6R.jfif" alt="Kawasaki ZX-6R"></div>
+                    <div class="product-info">
+                        <h4>Kawasaki Ninja ZX-6R</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 124 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 260 км/год</span>
+                        </div>
+                        <p class="bike-price">515 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/CBR600RR.jfif" alt="Honda CBR600RR"></div>
+                    <div class="product-info">
+                        <h4>Honda CBR600RR</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 121 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 255 км/год</span>
+                        </div>
+                        <p class="bike-price">495 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/aprilia rs 660.jfif" alt="Aprilia RS660"></div>
+                    <div class="product-info">
+                        <h4>Aprilia RS 660</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 100 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 240 км/год</span>
+                        </div>
+                        <p class="bike-price">460 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/s1000rr.jfif" alt="BMW S1000RR"></div>
+                    <div class="product-info">
+                        <h4>BMW S 1000 RR</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 210 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 305 км/год</span>
+                        </div>
+                        <p class="bike-price">890 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+                <div class="product-card bike-card sport-theme">
+                    <div class="img-placeholder"><img src="assets/panigale v2.jfif" alt="Ducati Panigale V2"></div>
+                    <div class="product-info">
+                        <h4>Ducati Panigale V2</h4>
+                        <div class="bike-specs">
+                            <span><i class="fa-solid fa-gauge-high"></i> 155 к.с.</span>
+                            <span><i class="fa-solid fa-wind"></i> 270 км/год</span>
+                        </div>
+                        <p class="bike-price">780 000 грн</p>
+                        <button class="buy-bike-btn">Замовити тест</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="logo">
+            <i class="fa-solid fa-motorcycle"></i> RealMoto
+        </div>
+        <div class="footer-contacts">
+            <span>+380990000000</span>
+            <span>м.Київ вул.Механіків 4</span>
+        </div>
+    </footer>
+
+</body>
+</html>
